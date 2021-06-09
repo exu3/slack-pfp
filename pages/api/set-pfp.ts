@@ -9,6 +9,10 @@ const images = {
     "https://cdn.discordapp.com/attachments/829562865215471627/852085432245682256/pfp_uwucat.png",
   ninjadino:
     "https://cdn.discordapp.com/attachments/829562865215471627/852091148292849744/ninjadinopfp.png",
+  turtle:
+    "https://cloud-n2u30somo-hack-club-bot.vercel.app/0project_-_drawing_18630208909876220125_2.png",
+  minnow:
+    "https://cloud-n2u30somo-hack-club-bot.vercel.app/1project_-_drawing_11380846989486699402_3.png",
 };
 
 async function setPFP() {
@@ -27,11 +31,11 @@ async function setPFP() {
       responseType: "arraybuffer",
     });
   } else if (17 < hour && hour < 20) {
-    image = await axios.get(images.uwucat, {
+    image = await axios.get(images.turtle, {
       responseType: "arraybuffer",
     });
   } else {
-    image = await axios.get(images.ninjadino, {
+    image = await axios.get(images.minnow, {
       responseType: "arraybuffer",
     });
   }
