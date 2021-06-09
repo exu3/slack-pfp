@@ -1,5 +1,5 @@
 {
-  "name": "with-tailwindcss",
+  "name": "slack-pfp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,13 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@slack/web-api": "^6.2.4",
+    "axios": "^0.21.1",
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@types/react": "^17.0.9",
     "autoprefixer": "^10.0.4",
     "postcss": "^8.1.10",
-    "tailwindcss": "^2.1.1"
+    "tailwindcss": "^2.1.1",
+    "typescript": "^4.3.2"
   }
 }
