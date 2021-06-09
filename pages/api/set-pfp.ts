@@ -47,5 +47,5 @@ async function setPFP() {
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   await setPFP();
-  res.send("Started changing your PFP!");
+  res.send("Changing your profile pic 👀");
 };
