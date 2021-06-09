@@ -1,4 +1,7 @@
-# cats-pfp
+how to set up locally
 
-Changes my profile picture on Slack to different images of cats depending on the time of day.
-
+```
+yarn
+yarn dev
+# go to localhost:3000
+```
