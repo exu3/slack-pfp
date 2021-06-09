@@ -3,38 +3,33 @@ import { WebClient } from "@slack/web-api";
 const axios = require("axios").default;
 
 const images = {
-  morning:
+  normal:
     "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
-  afternoon:
-    "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
-  night: "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
-  moreafternoon:
-    "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
-  evening:
-    "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
+  uwucat:
+    "https://cdn.discordapp.com/attachments/829562865215471627/852085432245682256/pfp_uwucat.png",
 };
 
 async function setPFP() {
   const hour = new Date().getHours() - 8;
   let image: any;
   if (5 < hour && hour < 12) {
-    image = await axios.get(images.morning, {
+    image = await axios.get(images.normal, {
       responseType: "arraybuffer",
     });
   } else if (12 < hour && hour < 15) {
-    image = await axios.get(images.afternoon, {
+    image = await axios.get(images.uwucat, {
       responseType: "arraybuffer",
     });
   } else if (15 < hour && hour < 17) {
-    image = await axios.get(images.moreafternoon, {
+    image = await axios.get(images.normal, {
       responseType: "arraybuffer",
     });
   } else if (17 < hour && hour < 20) {
-    image = await axios.get(images.evening, {
+    image = await axios.get(images.uwucat, {
       responseType: "arraybuffer",
     });
   } else {
-    image = await axios.get(images.night, {
+    image = await axios.get(images.normal, {
       responseType: "arraybuffer",
     });
   }
