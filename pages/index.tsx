@@ -2,7 +2,7 @@ import Meta from "../components/Meta";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="dark:bg-gray-900 dark:text-white flex flex-col items-center justify-center min-h-screen py-2">
       <Meta />
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-5">
@@ -20,8 +20,10 @@ export default function Home() {
         <h4 className="text-lg">And this is my Slack profile picture!</h4>
         <div className="flex">
           go to{" "}
-          <code className="bg-gray-200 rounded-lg px-1">/api/set-pfp</code> to
-          change my pfp
+          <code className="bg-gray-200 dark:bg-gray-700 rounded-lg px-1">
+            /api/set-pfp
+          </code>{" "}
+          to change my pfp
         </div>
       </main>
 
