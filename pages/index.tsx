@@ -18,12 +18,10 @@ export default function Home() {
           </a>
         </h1>
         <h4 className="text-lg">And this is my Slack profile picture!</h4>
-        <div className="flex">
-          go to{" "}
-          <code className="bg-gray-200 dark:bg-gray-700 rounded-lg px-1">
-            /api/set-pfp
-          </code>{" "}
-          to change my pfp
+        <div className="bg-blue-200 rounded-xl py-3 px-5">
+          <a href={"/api/change-pfp"}>
+            Change my pfp to a random cat pic &rarr;
+          </a>
         </div>
       </main>
 

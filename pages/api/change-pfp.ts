@@ -25,5 +25,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     image: image.data,
     token: process.env.SLACK_TOKEN,
   });
-  res.send("yeet");
+  res.redirect("https://pfp.ella.cx");
 };
