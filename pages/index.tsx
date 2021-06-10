@@ -12,27 +12,33 @@ export default function Home() {
           alt="Profile picture"
         />
         <h1 className="text-6xl font-bold">
-          Hey, I&apos;m{" "}
+          I&apos;m{" "}
           <a className="text-blue-400" href="https://ella.cx">
             Ella.
           </a>
         </h1>
         <h4 className="text-lg">And this is my Slack profile picture!</h4>
         <div className="bg-blue-200 rounded-xl py-3 px-5">
-          <a href={"/api/change-pfp"}>
+          <a href={"/api/change-pfp"} className="dark:text-black text-black">
             Change my pfp to a random cat pic &rarr;
           </a>
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center flex-col w-full h-14 border-t">
+        <div className="flex items-center">
+          {" "}
+          made by &nbsp;
+          <img src="/pfp.png" alt="Person" className="rounded-full w-5 h-5" />
+          &nbsp; ella.
+        </div>
         <a
-          className="flex items-center justify-center"
+          className="flex items-center justify-center underline"
           href="https://github.com/eilla1/slack-pfp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          this project is open source!
+          open source
         </a>
       </footer>
     </div>
