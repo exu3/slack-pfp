@@ -18,24 +18,24 @@ const images = {
 async function setPFP() {
   const hour = new Date().getHours() - 8;
   let image: any;
-  if (5 < hour && hour < 12) {
+  if (2 < hour && hour < 5) {
     image = await axios.get(images.uwucat, {
       responseType: "arraybuffer",
     });
-  } else if (12 < hour && hour < 15) {
-    image = await axios.get(images.normal, {
+  } else if (6 < hour && hour < 9) {
+    image = await axios.get(images.minnow, {
       responseType: "arraybuffer",
     });
-  } else if (15 < hour && hour < 17) {
+  } else if (10 < hour && hour < 13) {
     image = await axios.get(images.ninjadino, {
       responseType: "arraybuffer",
     });
-  } else if (17 < hour && hour < 20) {
+  } else if (14 < hour && hour < 17) {
     image = await axios.get(images.turtle, {
       responseType: "arraybuffer",
     });
   } else {
-    image = await axios.get(images.minnow, {
+    image = await axios.get(images.normal, {
       responseType: "arraybuffer",
     });
   }
