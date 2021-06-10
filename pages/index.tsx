@@ -1,6 +1,9 @@
 import Meta from "../components/Meta";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
+  const success = () => toast("Successfully changed pfp!");
   return (
     <div className="dark:bg-gray-900 dark:text-white flex flex-col items-center justify-center min-h-screen py-2">
       <Meta />
@@ -19,10 +22,15 @@ export default function Home() {
         </h1>
         <h4 className="text-lg">And this is my Slack profile picture!</h4>
         <div className="bg-blue-200 rounded-xl py-3 px-5">
-          <a href={"/api/change-pfp"} className="dark:text-black text-black">
+          <a
+            href={"/api/change-pfp"}
+            className="dark:text-black text-black"
+            onClick={success}
+          >
             Change my pfp to a random cat pic &rarr;
           </a>
         </div>
+        <ToastContainer />
       </main>
 
       <footer className="flex items-center justify-center flex-col w-full h-14 border-t">
