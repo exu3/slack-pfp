@@ -10,6 +10,7 @@ const images = [
   "https://images.unsplash.com/photo-1607014326008-cbf35c358666?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
   "https://images.unsplash.com/photo-1587896046517-d8154a1e633c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
   "https://cloud-mj24bdo7e-hack-club-bot.vercel.app/0screen_shot_2021-06-10_at_11.29.21_am.png",
+  "http://placekitten.com/g/300/300",
 ];
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
