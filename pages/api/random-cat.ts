@@ -26,6 +26,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     image: image.data,
     token: process.env.HP_SLACK_TOKEN,
   });
+  const slackRequest1 = await client.users.setPhoto({
+    image: image.data,
+    token: process.env.FIVEABLE_TOKEN,
+  });
   res.send(
     "mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
   );
