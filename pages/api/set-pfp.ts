@@ -2,17 +2,25 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { WebClient } from "@slack/web-api";
 const axios = require("axios").default;
 
+// const images = {
+//   normal:
+//     "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
+//   uwucat:
+//     "https://cdn.discordapp.com/attachments/829562865215471627/852085432245682256/pfp_uwucat.png",
+//   ninjadino:
+//     "https://cdn.discordapp.com/attachments/829562865215471627/852091148292849744/ninjadinopfp.png",
+//   turtle:
+//     "https://cloud-n2u30somo-hack-club-bot.vercel.app/0project_-_drawing_18630208909876220125_2.png",
+//   minnow:
+//     "https://cloud-n2u30somo-hack-club-bot.vercel.app/1project_-_drawing_11380846989486699402_3.png",
+// };
+
 const images = {
-  normal:
-    "https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png",
-  uwucat:
-    "https://cdn.discordapp.com/attachments/829562865215471627/852085432245682256/pfp_uwucat.png",
-  ninjadino:
-    "https://cdn.discordapp.com/attachments/829562865215471627/852091148292849744/ninjadinopfp.png",
-  turtle:
-    "https://cloud-n2u30somo-hack-club-bot.vercel.app/0project_-_drawing_18630208909876220125_2.png",
-  minnow:
-    "https://cloud-n2u30somo-hack-club-bot.vercel.app/1project_-_drawing_11380846989486699402_3.png",
+   normal: "https://cowboy-pfp.hackclub.dev/api/ticket?username=U01D6FYHLUW",
+   uwucat: "https://cdn.discordapp.com/attachments/829562865215471627/852085432245682256/pfp_uwucat.png",
+   ninjadino: "https://cdn.discordapp.com/attachments/829562865215471627/852091148292849744/ninjadinopfp.png",
+   turtle: "https://cloud-n2u30somo-hack-club-bot.vercel.app/0project_-_drawing_18630208909876220125_2.png",
+   minnow: "https://cloud-n2u30somo-hack-club-bot.vercel.app/1project_-_drawing_11380846989486699402_3.png",
 };
 
 async function setPFP() {
