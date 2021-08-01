@@ -1,6 +1,26 @@
 ![Cat jamming](https://emoji.slack-edge.com/T0266FRGM/catjam/e6bc1ad5b6bcf4fc.gif) **Slack pfp!**
 
-This repo automates my profile picture in the Hack Club Slack! Head to [pfp.ella.cx](https://pfp.ella.cx) to change my profile picture to a random cat picture. It resets to <img src="https://emoji.slack-edge.com/T0266FRGM/ellathonk/cf1cbe408cfc3596.png" width="20" height="20" /> every 15 minutes though.
+This repo automates my profile picture in the Hack Club Slack! Head to [pfp.ella.cx](https://pfp.ella.cx) to change my profile picture to a random cat picture.
+
+   <details className="text-sm">
+          <summary>Want to make your own automated Slack pfp?</summary>
+          Check out this
+          <a
+            href="https://workshops.hackclub.com/slack_pfp/"
+            className="text-blue-200 underline hover:text-gray-300"
+          >
+            workshop
+          </a>
+          made by
+          <a
+            href="https://sampoder.com"
+            className="bg-blue-500 bg-opacity-50 rounded-lg"
+          >
+            @sampoder
+          </a>
+          !
+        </details>
+<br/>
 
 ### Develop
 
@@ -9,6 +29,7 @@ This Next.js project is deployed on Vercel and uses the yarn package manager. To
 ```
 SLACK_TOKEN=
 ```
+
 Then install dependencies and run it locally at localhost:3000.
 
 ```

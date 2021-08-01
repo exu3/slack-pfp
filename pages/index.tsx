@@ -30,24 +30,7 @@ export default function Home() {
             Change my pfp to a random cat pic &rarr;
           </a>
         </div>
-        <details className="text-sm">
-          <summary>Want to make your own automated Slack pfp?</summary>
-          Check out this{" "}
-          <a
-            href="https://workshops.hackclub.com/slack_pfp/"
-            className="text-blue-200 underline hover:text-gray-300"
-          >
-            workshop
-          </a>{" "}
-          made by{" "}
-          <a
-            href="https://sampoder.com"
-            className="bg-blue-500 bg-opacity-50 rounded-lg"
-          >
-            @sampoder
-          </a>
-          !
-        </details>
+
         <ToastContainer />
       </main>
 
