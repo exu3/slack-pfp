@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-5">
         <img
           className="w-48 h-48 rounded-full border-4 border-blue-300"
-          src="https://cloud-hvd4ca9hs-hack-club-bot.vercel.app/0image_from_ios.png"
+          src="https://scrapbook.hackclub.com/ella.png"
           alt="Profile picture"
         />
         <h1 className="text-6xl font-bold">
@@ -30,6 +30,24 @@ export default function Home() {
             Change my pfp to a random cat pic &rarr;
           </a>
         </div>
+        <details className="text-sm">
+          <summary>Want to make your own automated Slack pfp?</summary>
+          Check out this{" "}
+          <a
+            href="https://workshops.hackclub.com/slack_pfp/"
+            className="text-blue-200 underline hover:text-gray-300"
+          >
+            workshop
+          </a>{" "}
+          made by{" "}
+          <a
+            href="https://sampoder.com"
+            className="bg-blue-500 bg-opacity-50 rounded-lg"
+          >
+            @sampoder
+          </a>
+          !
+        </details>
         <ToastContainer />
       </main>
 
@@ -37,7 +55,11 @@ export default function Home() {
         <div className="flex items-center">
           {" "}
           made by &nbsp;
-          <img src="/pfp.png" alt="Person" className="rounded-full w-5 h-5" />
+          <img
+            src="https://scrapbook.hackclub.com/ella.png"
+            alt="Person"
+            className="rounded-full w-5 h-5"
+          />
           &nbsp; ella.
         </div>
         <a
