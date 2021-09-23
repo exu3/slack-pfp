@@ -2,8 +2,7 @@
 
 This repo automates my profile picture in the Hack Club Slack! Head to [pfp.ella.cx](https://pfp.ella.cx) to change my profile picture to a random cat picture.
 
-   <details className="text-sm">
-          <summary>Want to make your own automated Slack pfp?</summary>
+Want to make your own automated Slack pfp?
           Check out this
           <a
             href="https://workshops.hackclub.com/slack_pfp/"
@@ -19,8 +18,6 @@ This repo automates my profile picture in the Hack Club Slack! Head to [pfp.ella
             @sampoder
           </a>
           !
-        </details>
-<br/>
 
 ### Develop
 
