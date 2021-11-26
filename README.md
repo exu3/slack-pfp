@@ -1,4 +1,4 @@
-![Cat jamming](https://emoji.slack-edge.com/T0266FRGM/catjam/e6bc1ad5b6bcf4fc.gif) **Slack pfp!**
+# slack-pfp
 
 This repo automates my profile picture in the Hack Club Slack! Head to [pfp.ella.cx](https://pfp.ella.cx) to change my profile picture to a random cat picture.
 
