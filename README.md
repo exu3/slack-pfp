@@ -16,8 +16,7 @@ Want to make your own automated Slack pfp?
             className="bg-blue-500 bg-opacity-50 rounded-lg"
           >
             @sampoder
-          </a>
-          !
+          </a>!
 
 ### Develop
 
