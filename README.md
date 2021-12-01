@@ -14,9 +14,7 @@ Want to make your own automated Slack pfp?
           <a
             href="https://sampoder.com"
             className="bg-blue-500 bg-opacity-50 rounded-lg"
-          >
-            @sampoder
-          </a>!
+          >@sampoder</a>!
 
 ### Develop
 
