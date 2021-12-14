@@ -34,5 +34,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     image: image.data,
     token: process.env.SLACK_TOKEN,
   });
-  res.redirect("https://hackclub.com/santa");
+  res.json("you changed my profile picture!");
 };
