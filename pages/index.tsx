@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <a
           className="flex items-center justify-center underline"
-          href="https://github.com/eilla1/slack-pfp"
+          href="https://github.com/exu3/slack-pfp"
           target="_blank"
           rel="noopener noreferrer"
         >
