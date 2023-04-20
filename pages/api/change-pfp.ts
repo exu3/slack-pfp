@@ -12,15 +12,6 @@ const images = [
   "https://cloud-mj24bdo7e-hack-club-bot.vercel.app/0screen_shot_2021-06-10_at_11.29.21_am.png",
 ];
 
-// const images = [
-//   "https://pfp.ella.cx/santa/camel.png",
-//   "https://pfp.ella.cx/santa/cat.png",
-//   "https://pfp.ella.cx/santa/corgi.png",
-//   "https://pfp.ella.cx/santa/gift.png",
-//   "https://pfp.ella.cx/santa/ninja.png",
-//   "https://pfp.ella.cx/santa/wahoo.png",
-// ];
-
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const client = new WebClient();
   const randomPic = Math.floor(Math.random() * images.length);
